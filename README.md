@@ -4,9 +4,12 @@ Cyber attacks happen very often and attackers can obfuscate their actions and st
 # Further Improvements
 If action is taken to improve the project, the model architecture should be changed to a GNN and the initial data collection should not rely on the Assert paper.
 
+# Running
+To run this for the first time, create a new environment then run each cell of the Triage_Notebook.ipynb
+
 # Creating the environment
-create a new environment: conda env create --name project3 --file conda-environment.yaml
-activate the environment: conda activate project
+create a new environment: conda env create --name triage --file conda-environment.yaml
+activate the environment: conda activate triage
 deactivate the environment (when you are done): conda deactivate
 
 # API key for WANDB
